@@ -5725,21 +5725,21 @@
   ],
   "variable": [
     {
-      "id": "8e7e2fc7-6bf3-49bd-9f9c-6214fd4fb6b0",
+      "id": "90d3019e-1e28-40dc-866b-c9e9bd788327",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "2eaea92c-54e4-48bc-bc83-01ddd37c1acf",
+      "id": "f007d8d0-7c43-4c64-9050-18dcad9f4759",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "29a3d936-0581-478d-b6e7-9298a4079817",
+      "id": "8bee31c0-0939-48d7-bec9-e13348350d6d",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
