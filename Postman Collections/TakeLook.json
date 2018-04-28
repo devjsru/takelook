@@ -517,7 +517,7 @@
                     {
                       "listen": "prerequest",
                       "script": {
-                        "id": "453ce469-14b4-42b3-b366-9f278eddfe69",
+                        "id": "0d73de8f-ea1e-43bd-b349-71170e1c206d",
                         "type": "text/javascript",
                         "exec": [
                           "pm.environment.set('code', '3d27vFwC49')"
@@ -6062,21 +6062,21 @@
   ],
   "variable": [
     {
-      "id": "5028aeda-9f52-4e67-9a82-d90acc5803b7",
+      "id": "31aaecb1-d353-4a94-a496-1276b9c29d79",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "d5b81ea1-1529-4868-b4bc-71f5e2cfd60f",
+      "id": "045f46b2-0dce-4121-9629-88a07dbebe04",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "c6298f56-8bca-4025-9dba-969e23dcce77",
+      "id": "e7a2f284-7f12-4201-964e-494bc1e4c754",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
