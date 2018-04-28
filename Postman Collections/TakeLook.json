@@ -1168,6 +1168,134 @@
                       "body": "6907"
                     }
                   ]
+                },
+                {
+                  "_postman_id": "2f01709f-a92b-434b-9dbc-ac6838b78d76",
+                  "name": "\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043c\u0430\u0441\u0442\u0435\u0440 \u0430\u043a\u043a\u0430\u0443\u043d\u0442 Copy",
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"email\": \"g1025309@nwytg.com\",\n  \"password\": \"aaaaaaaa\"\n}"
+                    },
+                    "url": "{{url}}/owner/registration"
+                  },
+                  "response": [
+                    {
+                      "id": "3b86acb8-3d63-4077-89be-0c32f8d310bd",
+                      "name": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043c\u0430\u0441\u0442\u0435\u0440-\u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "value": "application/json",
+                            "disabled": false
+                          },
+                          {
+                            "key": "Content-Type",
+                            "value": "application/json",
+                            "disabled": false
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\n\t\"email\": \"g1002827@nwytg.com\",\n\t\"password\": \"aaaaaaaa\"\n}"
+                        },
+                        "url": "{{url}}/owner/registration"
+                      },
+                      "status": "Created",
+                      "code": 201,
+                      "_postman_previewlanguage": "json",
+                      "header": [
+                        {
+                          "key": "Access-Control-Allow-Credentials",
+                          "value": "true",
+                          "name": "Access-Control-Allow-Credentials",
+                          "description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+                        },
+                        {
+                          "key": "Access-Control-Allow-Headers",
+                          "value": "Content-Type, Authorization, Origin, Accept, X-Requested-With",
+                          "name": "Access-Control-Allow-Headers",
+                          "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+                        },
+                        {
+                          "key": "Access-Control-Allow-Methods",
+                          "value": "GET, POST, PUT, DELETE, OPTIONS",
+                          "name": "Access-Control-Allow-Methods",
+                          "description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+                        },
+                        {
+                          "key": "Access-Control-Allow-Origin",
+                          "value": "*",
+                          "name": "Access-Control-Allow-Origin",
+                          "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+                        },
+                        {
+                          "key": "Cache-Control",
+                          "value": "no-cache, private",
+                          "name": "Cache-Control",
+                          "description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+                        },
+                        {
+                          "key": "Content-Type",
+                          "value": "application/json",
+                          "name": "Content-Type",
+                          "description": "The mime type of this content"
+                        },
+                        {
+                          "key": "Date",
+                          "value": "Thu, 12 Apr 2018 11:49:31 GMT",
+                          "name": "Date",
+                          "description": "The date and time that the message was sent"
+                        },
+                        {
+                          "key": "Server",
+                          "value": "nginx",
+                          "name": "Server",
+                          "description": "A name for the server"
+                        },
+                        {
+                          "key": "Transfer-Encoding",
+                          "value": "chunked",
+                          "name": "Transfer-Encoding",
+                          "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+                        },
+                        {
+                          "key": "X-Powered-By",
+                          "value": "PHP/7.2.4",
+                          "name": "X-Powered-By",
+                          "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+                        },
+                        {
+                          "key": "X-RateLimit-Limit",
+                          "value": "9000",
+                          "name": "X-RateLimit-Limit",
+                          "description": "Custom header"
+                        },
+                        {
+                          "key": "X-RateLimit-Remaining",
+                          "value": "8999",
+                          "name": "X-RateLimit-Remaining",
+                          "description": "Custom header"
+                        }
+                      ],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": "3"
+                    }
+                  ]
                 }
               ],
               "_postman_isSubFolder": true
@@ -5934,21 +6062,21 @@
   ],
   "variable": [
     {
-      "id": "4f535586-6224-4b94-966c-d8ff4f2ddec5",
+      "id": "944ca9d8-daf2-4ac4-a126-d121e02b2b66",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "df9e28b4-d133-4484-b855-fda8fef26478",
+      "id": "31108c57-38c2-4cc3-b17f-c108efa1f41d",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "562b3d37-3f3b-4323-a79c-d65f48fde095",
+      "id": "aa0907ec-71a1-4860-893c-9413a44c7f71",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
