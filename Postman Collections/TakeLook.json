@@ -235,7 +235,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n\t\"name\": \"a\",\n\t\"price_min_max\": [1, 9999],\n\t\"tag\": [\n\t\t[\"equipments\", \"\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442\"],\n\t\t[\"facilities\", \"\u041e\u0442\u0434\u0435\u043b\u044c\u043d\u0430\u044f \u0433\u0440\u0438\u043c\u0435\u0440\u043d\u0430\u044f\"]\n\t],\n\t\"order_by_name\": 1,\n\t\"order_by_price_min\": 1,\n\t\"pagination\": [1, 1]\n}"
+                  "raw": "{\n  \"like\": [\"name\", \"a\"],\n  \"price_min_max\": [1, 9999],\n  \"tag\": [\n    [\"equipments\", \"\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442\"],\n    [\"facilities\", \"\u041e\u0442\u0434\u0435\u043b\u044c\u043d\u0430\u044f \u0433\u0440\u0438\u043c\u0435\u0440\u043d\u0430\u044f\"]\n  ],\n  \"order_by\": [\"price_min\", \"desc\"],\n  \"pagination\": [1, 1]\n}"
                 },
                 "url": "{{url}}/web/rooms/filter"
               },
@@ -6062,21 +6062,21 @@
   ],
   "variable": [
     {
-      "id": "31aaecb1-d353-4a94-a496-1276b9c29d79",
+      "id": "5869bd97-802c-4bb9-86f1-c9b1d4a80ef7",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "045f46b2-0dce-4121-9629-88a07dbebe04",
+      "id": "383023ae-2bcb-4ce5-97eb-22e9eece1b40",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "e7a2f284-7f12-4201-964e-494bc1e4c754",
+      "id": "37972cfb-5622-424a-b8d6-d21e718df22c",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
