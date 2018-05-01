@@ -6035,7 +6035,15 @@
       "_postman_id": "c28fc0fb-48e3-46b6-8196-8a7d0f928b0f",
       "name": "v2",
       "description": "",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "795ca25f-ce31-4d7e-afc3-6ddf9096a4bf",
+          "name": "\u0410\u0433\u0440\u0435\u0433\u0430\u0442\u043e\u0440",
+          "description": "",
+          "item": [],
+          "_postman_isSubFolder": true
+        }
+      ]
     }
   ],
   "event": [
@@ -6062,21 +6070,21 @@
   ],
   "variable": [
     {
-      "id": "5869bd97-802c-4bb9-86f1-c9b1d4a80ef7",
+      "id": "926d7f59-a7a2-46c6-acab-e931eb850f42",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "383023ae-2bcb-4ce5-97eb-22e9eece1b40",
+      "id": "80d5efda-b5ef-4c66-86ed-3ad8689afffd",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "37972cfb-5622-424a-b8d6-d21e718df22c",
+      "id": "6a1738f6-05ac-4653-b050-110f7b3a5f8b",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
