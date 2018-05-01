@@ -6059,7 +6059,24 @@
                 "method": "GET",
                 "header": [],
                 "body": {},
-                "url": ""
+                "url": {
+                  "raw": "{{url_v2}}/rooms/autocomplete?query=a",
+                  "host": [
+                    "{{url_v2}}"
+                  ],
+                  "path": [
+                    "rooms",
+                    "autocomplete"
+                  ],
+                  "query": [
+                    {
+                      "key": "query",
+                      "value": "a",
+                      "equals": true,
+                      "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f"
+                    }
+                  ]
+                }
               },
               "response": []
             }
@@ -6093,21 +6110,21 @@
   ],
   "variable": [
     {
-      "id": "564ec3dd-3ad7-4883-9b4f-146da4c6c18b",
+      "id": "b9641d6d-1cfb-4fe1-b186-05e9dea8953d",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "72b7268c-f791-4f46-a4c0-3aea82aff431",
+      "id": "681df1d1-32dc-4834-a9d7-198a7310f79f",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "77a4634a-5dec-44d9-a586-6bce76a84bc0",
+      "id": "500eef85-bf25-45d2-9198-a707a50c2f0a",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
