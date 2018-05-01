@@ -6401,21 +6401,21 @@
   ],
   "variable": [
     {
-      "id": "a9f75bff-1e77-425a-80e0-4c5184e45a93",
+      "id": "b174556a-95a8-47a0-a3a7-fed4329c91be",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "e9ee0d51-0483-42e8-ba72-39da5137db42",
+      "id": "1312a070-ae59-4335-b845-fb560f06fe70",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "2ff4f964-49cd-4823-a8ad-c9096c6a5dad",
+      "id": "3e5f576f-686a-4f1e-91cd-17717016c93d",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
