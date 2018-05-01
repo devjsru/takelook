@@ -6048,7 +6048,77 @@
                 "method": "GET",
                 "header": [],
                 "body": {},
-                "url": ""
+                "url": {
+                  "raw": "{{url_v2}}/rooms?pagination[]=1&pagination[]=5&price_min_max[]=1&price_min_max[]=5000&like[]=name&like[]=100&order[]=id&order[]=asc&tags[0][]=equipments&tags[0][]=\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442",
+                  "host": [
+                    "{{url_v2}}"
+                  ],
+                  "path": [
+                    "rooms"
+                  ],
+                  "query": [
+                    {
+                      "key": "pagination[]",
+                      "value": "1",
+                      "equals": true,
+                      "description": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430"
+                    },
+                    {
+                      "key": "pagination[]",
+                      "value": "5",
+                      "equals": true,
+                      "description": "\u0417\u0430\u043f\u0438\u0441\u0435\u0439 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443"
+                    },
+                    {
+                      "key": "price_min_max[]",
+                      "value": "1",
+                      "equals": true,
+                      "description": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0446\u0435\u043d\u0430"
+                    },
+                    {
+                      "key": "price_min_max[]",
+                      "value": "5000",
+                      "equals": true,
+                      "description": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0446\u0435\u043d\u0430"
+                    },
+                    {
+                      "key": "like[]",
+                      "value": "name",
+                      "equals": true,
+                      "description": "\u041f\u043e\u043b\u0435 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                    },
+                    {
+                      "key": "like[]",
+                      "value": "100",
+                      "equals": true,
+                      "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                    },
+                    {
+                      "key": "order[]",
+                      "value": "id",
+                      "equals": true,
+                      "description": "\u041f\u043e\u043b\u0435 \u0434\u043b\u044f \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438"
+                    },
+                    {
+                      "key": "order[]",
+                      "value": "asc",
+                      "equals": true,
+                      "description": "\u041f\u043e\u0440\u044f\u0434\u043e\u043a \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438"
+                    },
+                    {
+                      "key": "tags[0][]",
+                      "value": "equipments",
+                      "equals": true,
+                      "description": "\u0422\u044d\u0433 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                    },
+                    {
+                      "key": "tags[0][]",
+                      "value": "\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442",
+                      "equals": true,
+                      "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                    }
+                  ]
+                }
               },
               "response": []
             },
@@ -6194,21 +6264,21 @@
   ],
   "variable": [
     {
-      "id": "d706f94c-4d6d-4280-8620-bacea7d2af26",
+      "id": "8b0cabdf-c1bc-4eeb-86b1-237583f79c68",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "0a29a5f3-a585-4be2-a4a4-e46f81c779fb",
+      "id": "82aa47f5-a3cf-4875-987d-66766f73e879",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "23e0c390-5add-4847-85c0-986bafea6af3",
+      "id": "bf641ff3-8370-4f20-a678-f3d53fe61324",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
