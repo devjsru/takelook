@@ -6051,6 +6051,17 @@
                 "url": ""
               },
               "response": []
+            },
+            {
+              "_postman_id": "a50c7598-3866-4922-b934-a876fc191543",
+              "name": "\u041a\u043e\u043c\u043d\u0430\u0442\u044b Copy",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {},
+                "url": ""
+              },
+              "response": []
             }
           ],
           "_postman_isSubFolder": true
@@ -6082,21 +6093,21 @@
   ],
   "variable": [
     {
-      "id": "92fe1e3a-9316-477a-a5f3-d7b7ad7fad08",
+      "id": "051cfa49-c51d-4876-9981-acc35b818d41",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "92af074a-efd3-4ed3-ba2e-4f9bd9934ff0",
+      "id": "c37ae2bd-9a27-467d-822c-94552a07f548",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "9f62cdd0-c1a0-4545-a951-cc7cdcbcd59e",
+      "id": "c043fedd-f594-4cb9-8225-9a03ab724d05",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
