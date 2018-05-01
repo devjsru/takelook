@@ -6120,7 +6120,144 @@
                   ]
                 }
               },
-              "response": []
+              "response": [
+                {
+                  "id": "cede6688-c4f0-4fb6-89ea-5cd339aaf3ed",
+                  "name": "\u041a\u043e\u043c\u043d\u0430\u0442\u044b",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "body": {},
+                    "url": {
+                      "raw": "{{url_v2}}/rooms?pagination[]=1&pagination[]=5&price_min_max[]=1&price_min_max[]=5000&like[]=name&like[]=100&order[]=id&order[]=asc&tags[0][]=equipments&tags[0][]=\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442",
+                      "host": [
+                        "{{url_v2}}"
+                      ],
+                      "path": [
+                        "rooms"
+                      ],
+                      "query": [
+                        {
+                          "key": "pagination[]",
+                          "value": "1",
+                          "equals": true,
+                          "description": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430"
+                        },
+                        {
+                          "key": "pagination[]",
+                          "value": "5",
+                          "equals": true,
+                          "description": "\u0417\u0430\u043f\u0438\u0441\u0435\u0439 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443"
+                        },
+                        {
+                          "key": "price_min_max[]",
+                          "value": "1",
+                          "equals": true,
+                          "description": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0446\u0435\u043d\u0430"
+                        },
+                        {
+                          "key": "price_min_max[]",
+                          "value": "5000",
+                          "equals": true,
+                          "description": "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0446\u0435\u043d\u0430"
+                        },
+                        {
+                          "key": "like[]",
+                          "value": "name",
+                          "equals": true,
+                          "description": "\u041f\u043e\u043b\u0435 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                        },
+                        {
+                          "key": "like[]",
+                          "value": "100",
+                          "equals": true,
+                          "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                        },
+                        {
+                          "key": "order[]",
+                          "value": "id",
+                          "equals": true,
+                          "description": "\u041f\u043e\u043b\u0435 \u0434\u043b\u044f \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438"
+                        },
+                        {
+                          "key": "order[]",
+                          "value": "asc",
+                          "equals": true,
+                          "description": "\u041f\u043e\u0440\u044f\u0434\u043e\u043a \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438"
+                        },
+                        {
+                          "key": "tags[0][]",
+                          "value": "equipments",
+                          "equals": true,
+                          "description": "\u0422\u044d\u0433 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                        },
+                        {
+                          "key": "tags[0][]",
+                          "value": "\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0432\u0435\u0442",
+                          "equals": true,
+                          "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache, private",
+                      "name": "Cache-Control",
+                      "description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json",
+                      "name": "Content-Type",
+                      "description": "The mime type of this content"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 01 May 2018 12:54:21 GMT",
+                      "name": "Date",
+                      "description": "The date and time that the message was sent"
+                    },
+                    {
+                      "key": "Server",
+                      "value": "nginx",
+                      "name": "Server",
+                      "description": "A name for the server"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked",
+                      "name": "Transfer-Encoding",
+                      "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+                    },
+                    {
+                      "key": "X-Powered-By",
+                      "value": "PHP/7.2.5",
+                      "name": "X-Powered-By",
+                      "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+                    },
+                    {
+                      "key": "X-RateLimit-Limit",
+                      "value": "9000",
+                      "name": "X-RateLimit-Limit",
+                      "description": "Custom header"
+                    },
+                    {
+                      "key": "X-RateLimit-Remaining",
+                      "value": "8999",
+                      "name": "X-RateLimit-Remaining",
+                      "description": "Custom header"
+                    }
+                  ],
+                  "cookie": [],
+                  "responseTime": null,
+                  "body": "{\"apiVersion\":\"v2\",\"revision\":null,\"kind\":\"RoomInterface@all\",\"data\":{\"items\":[{\"id\":156,\"name\":\"A100\",\"description\":\"\",\"price_min\":4500,\"open_at\":null,\"closed_at\":null,\"created_at\":\"1522767804\",\"updated_at\":\"1522767804\",\"deleted_at\":null,\"studios\":[{\"id\":154,\"name\":\"Apollo\",\"description\":\"\",\"is_cash\":false,\"created_at\":\"1522767785\",\"updated_at\":\"1522767785\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"studio_id\":154},\"contact\":{\"id\":152,\"contactable_id\":154,\"contactable_type\":\"App\\\\Entities\\\\Studio\",\"email\":null,\"address\":\"\\u0443\\u043b. 1-\\u044f \\u044f\\u043c\\u0441\\u043a\\u0430\\u044f, \\u0434\\u043e\\u043c 8\",\"phone\":\"+7 (495) 505-03-60\",\"longitude\":\"37.61041300\",\"latitude\":\"55.79494800\",\"created_at\":\"1522767785\",\"updated_at\":\"1522767785\",\"deleted_at\":null}}],\"images\":[{\"id\":581,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/i4OwTXhf1522767804.jpg\",\"created_at\":\"1522767804\",\"updated_at\":\"1522767804\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":581}},{\"id\":582,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/VN7iXu9T1522767806.jpg\",\"created_at\":\"1522767806\",\"updated_at\":\"1522767806\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":582}},{\"id\":583,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/NCo7FxWx1522767809.jpg\",\"created_at\":\"1522767809\",\"updated_at\":\"1522767809\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":583}},{\"id\":584,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/fqL3P5Ka1522767811.jpg\",\"created_at\":\"1522767811\",\"updated_at\":\"1522767811\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":584}},{\"id\":585,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/qXQnpbhn1522767813.jpg\",\"created_at\":\"1522767813\",\"updated_at\":\"1522767813\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":585}},{\"id\":586,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/VVC43YRz1522767816.jpg\",\"created_at\":\"1522767816\",\"updated_at\":\"1522767816\",\"deleted_at\":null,\"pivot\":{\"room_id\":156,\"image_id\":586}}],\"backgrounds\":[],\"equipments\":[{\"id\":1,\"name\":\"\\u0413\\u0435\\u043d\\u0435\\u0440\\u0430\\u0442\\u043e\\u0440\\u043d\\u044b\\u0439 \\u0441\\u0432\\u0435\\u0442\",\"pivot\":{\"room_id\":156,\"equipment_id\":1}},{\"id\":2,\"name\":\"\\u041c\\u043e\\u043d\\u043e\\u0431\\u043b\\u043e\\u043a\\u0438\",\"pivot\":{\"room_id\":156,\"equipment_id\":2}},{\"id\":3,\"name\":\"\\u041f\\u043e\\u0441\\u0442\\u043e\\u044f\\u043d\\u043d\\u044b\\u0439 \\u0441\\u0432\\u0435\\u0442\",\"pivot\":{\"room_id\":156,\"equipment_id\":3}},{\"id\":4,\"name\":\"\\u0421\\u0438\\u0441\\u0442\\u0435\\u043c\\u044b \\u043a\\u0440\\u0435\\u043f\\u043b\\u0435\\u043d\\u0438\\u044f\",\"pivot\":{\"room_id\":156,\"equipment_id\":4}}],\"facilities\":[{\"id\":3,\"name\":\"\\u041e\\u0442\\u0434\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0433\\u0440\\u0438\\u043c\\u0435\\u0440\\u043d\\u0430\\u044f\",\"pivot\":{\"room_id\":156,\"facility_id\":3}},{\"id\":1,\"name\":\"Wi-Fi\",\"pivot\":{\"room_id\":156,\"facility_id\":1}},{\"id\":4,\"name\":\"\\u0414\\u0443\\u0448\",\"pivot\":{\"room_id\":156,\"facility_id\":4}},{\"id\":5,\"name\":\"\\u0411\\u0430\\u0440\",\"pivot\":{\"room_id\":156,\"facility_id\":5}},{\"id\":6,\"name\":\"\\u041a\\u0443\\u0445\\u043d\\u044f\",\"pivot\":{\"room_id\":156,\"facility_id\":6}},{\"id\":7,\"name\":\"\\u041a\\u043e\\u043d\\u0434\\u0438\\u0446\\u0438\\u043e\\u043d\\u0435\\u0440\",\"pivot\":{\"room_id\":156,\"facility_id\":7}},{\"id\":8,\"name\":\"\\u041f\\u0440\\u043e\\u043a\\u0430\\u0442 \\u043e\\u0434\\u0435\\u0436\\u0434\\u044b\",\"pivot\":{\"room_id\":156,\"facility_id\":8}},{\"id\":9,\"name\":\"\\u041f\\u0440\\u043e\\u043a\\u0430\\u0442 \\u043e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\",\"pivot\":{\"room_id\":156,\"facility_id\":9}}],\"interior_items\":[],\"properties\":[],\"gc_token\":null,\"preferences\":{\"id\":7,\"size\":\"540\",\"ceiling_height\":\"5\",\"room_id\":156,\"created_at\":\"1522767804\",\"updated_at\":\"1522767804\",\"deleted_at\":null}},{\"id\":386,\"name\":\"\\u0417\\u0430\\u043b 100\",\"description\":\"\",\"price_min\":2400,\"open_at\":null,\"closed_at\":null,\"created_at\":\"1522773762\",\"updated_at\":\"1522773762\",\"deleted_at\":null,\"studios\":[{\"id\":217,\"name\":\"Dada studio\",\"description\":\"\",\"is_cash\":false,\"created_at\":\"1522773762\",\"updated_at\":\"1522773762\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"studio_id\":217},\"contact\":{\"id\":215,\"contactable_id\":217,\"contactable_type\":\"App\\\\Entities\\\\Studio\",\"email\":null,\"address\":\"\\u0443\\u043b.\\u041d\\u043e\\u0432\\u043e\\u0434\\u043c\\u0438\\u0442\\u0440\\u043e\\u0432\\u0441\\u043a\\u0430\\u044f 5\\u0430\\u04412\",\"phone\":\"+7 909 979-1399\",\"longitude\":\"37.58839500\",\"latitude\":\"55.80713200\",\"created_at\":\"1522773762\",\"updated_at\":\"1522773762\",\"deleted_at\":null}}],\"images\":[{\"id\":3119,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/tmClAGxO1522773763.png\",\"created_at\":\"1522773763\",\"updated_at\":\"1522773763\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3119}},{\"id\":3120,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/kRrdvwyn1522773765.jpg\",\"created_at\":\"1522773765\",\"updated_at\":\"1522773765\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3120}},{\"id\":3121,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/9InlHEtw1522773768.jpg\",\"created_at\":\"1522773768\",\"updated_at\":\"1522773768\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3121}},{\"id\":3122,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/W4Dphs2y1522773770.jpg\",\"created_at\":\"1522773770\",\"updated_at\":\"1522773770\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3122}},{\"id\":3123,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/Fs95VROD1522773772.jpg\",\"created_at\":\"1522773772\",\"updated_at\":\"1522773772\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3123}},{\"id\":3124,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/w2wBQ5511522773775.jpg\",\"created_at\":\"1522773775\",\"updated_at\":\"1522773775\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3124}},{\"id\":3125,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/54eP2Ns81522773777.jpg\",\"created_at\":\"1522773777\",\"updated_at\":\"1522773777\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3125}},{\"id\":3126,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/DcNVVLJB1522773779.jpg\",\"created_at\":\"1522773779\",\"updated_at\":\"1522773779\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3126}},{\"id\":3127,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/JAzaFaYr1522773782.jpg\",\"created_at\":\"1522773782\",\"updated_at\":\"1522773782\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3127}},{\"id\":3128,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/xTBSP16Z1522773784.jpg\",\"created_at\":\"1522773784\",\"updated_at\":\"1522773784\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3128}},{\"id\":3129,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/yIpY6djj1522773786.jpg\",\"created_at\":\"1522773786\",\"updated_at\":\"1522773786\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3129}},{\"id\":3130,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/TU91bw1F1522773789.png\",\"created_at\":\"1522773789\",\"updated_at\":\"1522773789\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3130}},{\"id\":3131,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/s7BsNyIW1522773791.png\",\"created_at\":\"1522773791\",\"updated_at\":\"1522773791\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3131}},{\"id\":3132,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/hCgZe1cQ1522773793.png\",\"created_at\":\"1522773794\",\"updated_at\":\"1522773794\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3132}},{\"id\":3133,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/2unPYJdd1522773796.png\",\"created_at\":\"1522773796\",\"updated_at\":\"1522773796\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3133}},{\"id\":3134,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/znCYcrin1522773798.png\",\"created_at\":\"1522773798\",\"updated_at\":\"1522773798\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3134}},{\"id\":3135,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/BKZWLIBG1522773800.png\",\"created_at\":\"1522773801\",\"updated_at\":\"1522773801\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3135}},{\"id\":3136,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/W5KjGWAe1522773803.png\",\"created_at\":\"1522773803\",\"updated_at\":\"1522773803\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3136}},{\"id\":3137,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/QOXHXfTZ1522773805.jpg\",\"created_at\":\"1522773805\",\"updated_at\":\"1522773805\",\"deleted_at\":null,\"pivot\":{\"room_id\":386,\"image_id\":3137}}],\"backgrounds\":[],\"equipments\":[{\"id\":2,\"name\":\"\\u041c\\u043e\\u043d\\u043e\\u0431\\u043b\\u043e\\u043a\\u0438\",\"pivot\":{\"room_id\":386,\"equipment_id\":2}}],\"facilities\":[{\"id\":1,\"name\":\"Wi-Fi\",\"pivot\":{\"room_id\":386,\"facility_id\":1}}],\"interior_items\":[],\"properties\":[{\"id\":2,\"name\":\"\\u0414\\u043d\\u0435\\u0432\\u043d\\u043e\\u0439 \\u0441\\u0432\\u0435\\u0442\",\"pivot\":{\"room_id\":386,\"property_id\":2}},{\"id\":4,\"name\":\"\\u041f\\u0440\\u043e\\u0445\\u043e\\u0434\\u043d\\u0430\\u044f \\u0441\\u0438\\u0441\\u0442\\u0435\\u043c\\u0430\",\"pivot\":{\"room_id\":386,\"property_id\":4}}],\"gc_token\":null,\"preferences\":{\"id\":237,\"size\":\"100\",\"ceiling_height\":\"0\",\"room_id\":386,\"created_at\":\"1522773762\",\"updated_at\":\"1522773762\",\"deleted_at\":null}},{\"id\":568,\"name\":\"Light 100\",\"description\":\"5 \\u043e\\u043a\\u043e\\u043d \\u0438 \\u0431\\u043e\\u043b\\u044c\\u0448\\u043e\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u0434\\u043d\\u0435\\u0432\\u043d\\u043e\\u0433\\u043e \\u0441\\u0432\\u0435\\u0442\\u0430 \\u0431\\u043b\\u0430\\u0433\\u043e\\u0434\\u0430\\u0440\\u044f \\u0434\\u043e\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e\\u043c\\u0443 \\u043f\\u043e\\u0442\\u043e\\u043b\\u043e\\u0447\\u043d\\u043e\\u043c\\u0443 \\u043e\\u0441\\u0442\\u0435\\u043a\\u043b\\u0435\\u043d\\u0438\\u044e. \\u0412\\u044b\\u0445\\u043e\\u0434 \\u043d\\u0430 \\u0441\\u043e\\u0431\\u0441\\u0442\\u0432\\u0435\\u043d\\u043d\\u0443\\u044e \\u0442\\u0435\\u0440\\u0440\\u0430\\u0441\\u0443. \\u041f\\u0440\\u043e\\u0441\\u0442\\u043e\\u0440\\u043d\\u044b\\u0439 \\u0437\\u0430\\u043b \\u0441 \\u043d\\u0435\\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u0438\\u043c\\u0438 \\u0438\\u043d\\u0442\\u0435\\u0440\\u044c\\u0435\\u0440\\u043d\\u044b\\u043c\\u0438 \\u0437\\u043e\\u043d\\u0430\\u043c\\u0438. \\u041f\\u043e\\u0434\\u043e\\u0433\\u0440\\u0435\\u0432\\u0430\\u0435\\u043c\\u044b\\u0439 \\u043f\\u043e\\u043b.\",\"price_min\":1000,\"open_at\":null,\"closed_at\":null,\"created_at\":\"1522778738\",\"updated_at\":\"1522778738\",\"deleted_at\":null,\"studios\":[{\"id\":312,\"name\":\"Leona Stage\",\"description\":\"LeonaStage - \\u0444\\u043e\\u0442\\u043e\\u0441\\u0442\\u0443\\u0434\\u0438\\u044f Premium \\u043a\\u043b\\u0430\\u0441\\u0441\\u0430 \\u0421\\u0430\\u043d\\u043a\\u0442-\\u041f\\u0435\\u0442\\u0435\\u0440\\u0431\\u0443\\u0440\\u0433\\u0430, \\u0432\\u0445\\u043e\\u0434\\u044f\\u0449\\u0430\\u044f \\u0432 \\u0442\\u0440\\u043e\\u0439\\u043a\\u0443 \\u043a\\u0440\\u0443\\u043f\\u043d\\u0435\\u0439\\u0448\\u0438\\u0445 \\u0444\\u043e\\u0442\\u043e\\u0441\\u0442\\u0443\\u0434\\u0438\\u0439 \\u0420\\u043e\\u0441\\u0441\\u0438\\u0438 \\u0438 \\u0441\\u0430\\u043c\\u044b\\u0439 \\u043c\\u0430\\u0441\\u0448\\u0442\\u0430\\u0431\\u043d\\u044b\\u0439 \\u0444\\u043e\\u0442\\u043e\\u043f\\u0440\\u043e\\u0435\\u043a\\u0442.\",\"is_cash\":false,\"created_at\":\"1522778565\",\"updated_at\":\"1522778565\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"studio_id\":312},\"contact\":{\"id\":310,\"contactable_id\":312,\"contactable_type\":\"App\\\\Entities\\\\Studio\",\"email\":null,\"address\":\"\\u0421\\u0442\\u0430\\u0440\\u043e-\\u041f\\u0435\\u0442\\u0435\\u0440\\u0433\\u043e\\u0444\\u0441\\u043a\\u0438\\u0439 \\u043f\\u0440\\u043e\\u0441\\u043f\\u0435\\u043a\\u0442, \\u0434.34, \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441 407, (\\u0442\\u0435\\u0440\\u0440\\u0438\\u0442\\u043e\\u0440\\u0438\\u044f \\u0437\\u0430\\u0432\\u043e\\u0434\\u0430 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0439 \\u0422\\u0440\\u0435\\u0443\\u0433\\u043e\\u043b\\u044c\\u043d\\u0438\\u043a)\",\"phone\":\"+7 (812)-64-64-764\",\"longitude\":\"30.28070800\",\"latitude\":\"59.90563300\",\"created_at\":\"1522778565\",\"updated_at\":\"1522778565\",\"deleted_at\":null}}],\"images\":[{\"id\":5237,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/NV1PvcrY1522778739.jpg\",\"created_at\":\"1522778739\",\"updated_at\":\"1522778739\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5237}},{\"id\":5238,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/wrZRq4wJ1522778741.jpg\",\"created_at\":\"1522778741\",\"updated_at\":\"1522778741\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5238}},{\"id\":5239,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/DbZHW5Ic1522778744.jpg\",\"created_at\":\"1522778744\",\"updated_at\":\"1522778744\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5239}},{\"id\":5240,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/fXLZiwrx1522778746.jpg\",\"created_at\":\"1522778746\",\"updated_at\":\"1522778746\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5240}},{\"id\":5241,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/QY386AXC1522778748.jpg\",\"created_at\":\"1522778748\",\"updated_at\":\"1522778748\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5241}},{\"id\":5242,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/cdDeMfP31522778751.jpg\",\"created_at\":\"1522778751\",\"updated_at\":\"1522778751\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5242}},{\"id\":5243,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/NBg6DFTZ1522778753.jpg\",\"created_at\":\"1522778753\",\"updated_at\":\"1522778753\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5243}},{\"id\":5244,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/isoK129V1522778756.jpg\",\"created_at\":\"1522778756\",\"updated_at\":\"1522778756\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5244}},{\"id\":5245,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/2dUuu2K21522778758.jpg\",\"created_at\":\"1522778758\",\"updated_at\":\"1522778758\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5245}},{\"id\":5246,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/HHYCaQnh1522778761.jpg\",\"created_at\":\"1522778761\",\"updated_at\":\"1522778761\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5246}},{\"id\":5247,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/06lQh8FO1522778763.jpg\",\"created_at\":\"1522778763\",\"updated_at\":\"1522778763\",\"deleted_at\":null,\"pivot\":{\"room_id\":568,\"image_id\":5247}}],\"backgrounds\":[],\"equipments\":[{\"id\":2,\"name\":\"\\u041c\\u043e\\u043d\\u043e\\u0431\\u043b\\u043e\\u043a\\u0438\",\"pivot\":{\"room_id\":568,\"equipment_id\":2}}],\"facilities\":[{\"id\":3,\"name\":\"\\u041e\\u0442\\u0434\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0433\\u0440\\u0438\\u043c\\u0435\\u0440\\u043d\\u0430\\u044f\",\"pivot\":{\"room_id\":568,\"facility_id\":3}},{\"id\":1,\"name\":\"Wi-Fi\",\"pivot\":{\"room_id\":568,\"facility_id\":1}},{\"id\":10,\"name\":\"\\u041f\\u043b\\u0430\\u0442\\u043d\\u0430\\u044f \\u043f\\u0430\\u0440\\u043a\\u043e\\u0432\\u043a\\u0430\",\"pivot\":{\"room_id\":568,\"facility_id\":10}},{\"id\":4,\"name\":\"\\u0414\\u0443\\u0448\",\"pivot\":{\"room_id\":568,\"facility_id\":4}},{\"id\":6,\"name\":\"\\u041a\\u0443\\u0445\\u043d\\u044f\",\"pivot\":{\"room_id\":568,\"facility_id\":6}},{\"id\":7,\"name\":\"\\u041a\\u043e\\u043d\\u0434\\u0438\\u0446\\u0438\\u043e\\u043d\\u0435\\u0440\",\"pivot\":{\"room_id\":568,\"facility_id\":7}},{\"id\":8,\"name\":\"\\u041f\\u0440\\u043e\\u043a\\u0430\\u0442 \\u043e\\u0434\\u0435\\u0436\\u0434\\u044b\",\"pivot\":{\"room_id\":568,\"facility_id\":8}},{\"id\":9,\"name\":\"\\u041f\\u0440\\u043e\\u043a\\u0430\\u0442 \\u043e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\",\"pivot\":{\"room_id\":568,\"facility_id\":9}}],\"interior_items\":[],\"properties\":[{\"id\":2,\"name\":\"\\u0414\\u043d\\u0435\\u0432\\u043d\\u043e\\u0439 \\u0441\\u0432\\u0435\\u0442\",\"pivot\":{\"room_id\":568,\"property_id\":2}}],\"gc_token\":null,\"preferences\":{\"id\":419,\"size\":\"3000\",\"ceiling_height\":\"0\",\"room_id\":568,\"created_at\":\"1522778738\",\"updated_at\":\"1522778738\",\"deleted_at\":null}},{\"id\":581,\"name\":\"Loft 100\",\"description\":\"6 \\u0431\\u043e\\u043b\\u044c\\u0448\\u0438\\u0445 \\u043e\\u043a\\u043e\\u043d, \\u0432\\u044b\\u0445\\u043e\\u0434\\u044f\\u0449\\u0438\\u0445 \\u043d\\u0430 \\u0437\\u0430\\u043f\\u0430\\u0434 \\u0412\\u0438\\u0434 \\u043d\\u0430 \\u0411\\u043e\\u043b\\u044c\\u0448\\u0443\\u044e \\u041a\\u043e\\u043d\\u044e\\u0448\\u0435\\u043d\\u043d\\u0443\\u044e \\u0438 \\u041d\\u0435\\u0432\\u0441\\u043a\\u0438\\u0439 \\u043f\\u0440\\u043e\\u0441\\u043f\\u0435\\u043a\\u0442 \\u2600 \\u0441\\u043e\\u043b\\u043d\\u0446\\u0435 \\u0432 \\u0437\\u0430\\u043b\\u0435 \\u043f\\u043e\\u0441\\u043b\\u0435 17 \\u0447\\u0430\\u0441\\u043e\\u0432, \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0442\\u043d\\u044b\\u0439 \\u043f\\u0435\\u0440\\u0438\\u043e\\u0434\",\"price_min\":2600,\"open_at\":null,\"closed_at\":null,\"created_at\":\"1522779061\",\"updated_at\":\"1522779061\",\"deleted_at\":null,\"studios\":[{\"id\":315,\"name\":\"Skypoint studio K12\",\"description\":\"\",\"is_cash\":false,\"created_at\":\"1522779061\",\"updated_at\":\"1522779061\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"studio_id\":315},\"contact\":{\"id\":313,\"contactable_id\":315,\"contactable_type\":\"App\\\\Entities\\\\Studio\",\"email\":null,\"address\":\"\\u0411\\u043e\\u043b\\u044c\\u0448\\u0430\\u044f \\u041a\\u043e\\u043d\\u044e\\u0448\\u0435\\u043d\\u043d\\u0430\\u044f, 12\",\"phone\":\"89816889088\",\"longitude\":\"30.32306400\",\"latitude\":\"59.93691300\",\"created_at\":\"1522779061\",\"updated_at\":\"1522779061\",\"deleted_at\":null}}],\"images\":[{\"id\":5375,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/j9OjzQ6O1522779062.jpg\",\"created_at\":\"1522779062\",\"updated_at\":\"1522779062\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5375}},{\"id\":5376,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/D15B8i1U1522779064.jpg\",\"created_at\":\"1522779064\",\"updated_at\":\"1522779064\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5376}},{\"id\":5377,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/jdKQm3Tg1522779066.jpg\",\"created_at\":\"1522779066\",\"updated_at\":\"1522779066\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5377}},{\"id\":5378,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/w1t7VuO91522779069.jpg\",\"created_at\":\"1522779069\",\"updated_at\":\"1522779069\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5378}},{\"id\":5379,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/zbfatKx41522779071.jpg\",\"created_at\":\"1522779071\",\"updated_at\":\"1522779071\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5379}},{\"id\":5380,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/eWrWNcyn1522779073.jpg\",\"created_at\":\"1522779074\",\"updated_at\":\"1522779074\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5380}},{\"id\":5381,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/0PJcDVHS1522779076.jpg\",\"created_at\":\"1522779076\",\"updated_at\":\"1522779076\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5381}},{\"id\":5382,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/HMjHRyR71522779078.jpg\",\"created_at\":\"1522779078\",\"updated_at\":\"1522779078\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5382}},{\"id\":5383,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/JixTIJGb1522779080.jpg\",\"created_at\":\"1522779080\",\"updated_at\":\"1522779080\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5383}},{\"id\":5384,\"path\":\"http:\\/\\/128121.selcdn.ru\\/takelook\\/f8TSx1IB1522779083.jpg\",\"created_at\":\"1522779083\",\"updated_at\":\"1522779083\",\"deleted_at\":null,\"pivot\":{\"room_id\":581,\"image_id\":5384}}],\"backgrounds\":[],\"equipments\":[{\"id\":2,\"name\":\"\\u041c\\u043e\\u043d\\u043e\\u0431\\u043b\\u043e\\u043a\\u0438\",\"pivot\":{\"room_id\":581,\"equipment_id\":2}},{\"id\":4,\"name\":\"\\u0421\\u0438\\u0441\\u0442\\u0435\\u043c\\u044b \\u043a\\u0440\\u0435\\u043f\\u043b\\u0435\\u043d\\u0438\\u044f\",\"pivot\":{\"room_id\":581,\"equipment_id\":4}}],\"facilities\":[{\"id\":3,\"name\":\"\\u041e\\u0442\\u0434\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0433\\u0440\\u0438\\u043c\\u0435\\u0440\\u043d\\u0430\\u044f\",\"pivot\":{\"room_id\":581,\"facility_id\":3}},{\"id\":1,\"name\":\"Wi-Fi\",\"pivot\":{\"room_id\":581,\"facility_id\":1}},{\"id\":12,\"name\":\"\\u041e\\u0440\\u0433\\u0430\\u043d\\u0438\\u0437\\u0430\\u0446\\u0438\\u044f \\u043c\\u0435\\u0440\\u043e\\u043f\\u0440\\u0438\\u044f\\u0442\\u0438\\u0439\",\"pivot\":{\"room_id\":581,\"facility_id\":12}}],\"interior_items\":[],\"properties\":[{\"id\":2,\"name\":\"\\u0414\\u043d\\u0435\\u0432\\u043d\\u043e\\u0439 \\u0441\\u0432\\u0435\\u0442\",\"pivot\":{\"room_id\":581,\"property_id\":2}},{\"id\":3,\"name\":\"\\u0423\\u0441\\u043b\\u043e\\u0432\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0435\\u043c\\u0438\\u043d\\u0430\\u0440\\u043e\\u0432\",\"pivot\":{\"room_id\":581,\"property_id\":3}},{\"id\":8,\"name\":\"\\u0411\\u0435\\u0437 \\u043f\\u0440\\u043e\\u0445\\u043e\\u0434\\u043d\\u043e\\u0439\",\"pivot\":{\"room_id\":581,\"property_id\":8}}],\"gc_token\":null,\"preferences\":{\"id\":432,\"size\":\"200\",\"ceiling_height\":\"0\",\"room_id\":581,\"created_at\":\"1522779061\",\"updated_at\":\"1522779061\",\"deleted_at\":null}}]}}"
+                }
+              ]
             },
             {
               "_postman_id": "a50c7598-3866-4922-b934-a876fc191543",
@@ -6264,21 +6401,21 @@
   ],
   "variable": [
     {
-      "id": "8b0cabdf-c1bc-4eeb-86b1-237583f79c68",
+      "id": "e08beb62-7b89-4aab-b06c-33d1ec5586a4",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "82aa47f5-a3cf-4875-987d-66766f73e879",
+      "id": "19a7db25-2dd1-4a60-92f9-0fead4f2a72c",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "bf641ff3-8370-4f20-a678-f3d53fe61324",
+      "id": "54b8719c-e137-4fa5-9a10-2f016364db5a",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
