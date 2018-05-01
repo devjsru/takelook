@@ -6078,7 +6078,91 @@
                   ]
                 }
               },
-              "response": []
+              "response": [
+                {
+                  "id": "a85bb792-a489-456e-8b54-5adf5990210a",
+                  "name": "\u0410\u0432\u0442\u043e\u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "body": {},
+                    "url": {
+                      "raw": "{{url_v2}}/rooms/autocomplete?query=a",
+                      "host": [
+                        "{{url_v2}}"
+                      ],
+                      "path": [
+                        "rooms",
+                        "autocomplete"
+                      ],
+                      "query": [
+                        {
+                          "key": "query",
+                          "value": "a",
+                          "equals": true,
+                          "description": "\u0421\u0442\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "header": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "no-cache, private",
+                      "name": "Cache-Control",
+                      "description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+                    },
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json",
+                      "name": "Content-Type",
+                      "description": "The mime type of this content"
+                    },
+                    {
+                      "key": "Date",
+                      "value": "Tue, 01 May 2018 12:08:14 GMT",
+                      "name": "Date",
+                      "description": "The date and time that the message was sent"
+                    },
+                    {
+                      "key": "Server",
+                      "value": "nginx",
+                      "name": "Server",
+                      "description": "A name for the server"
+                    },
+                    {
+                      "key": "Transfer-Encoding",
+                      "value": "chunked",
+                      "name": "Transfer-Encoding",
+                      "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+                    },
+                    {
+                      "key": "X-Powered-By",
+                      "value": "PHP/7.2.5",
+                      "name": "X-Powered-By",
+                      "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+                    },
+                    {
+                      "key": "X-RateLimit-Limit",
+                      "value": "9000",
+                      "name": "X-RateLimit-Limit",
+                      "description": "Custom header"
+                    },
+                    {
+                      "key": "X-RateLimit-Remaining",
+                      "value": "8997",
+                      "name": "X-RateLimit-Remaining",
+                      "description": "Custom header"
+                    }
+                  ],
+                  "cookie": [],
+                  "responseTime": null,
+                  "body": "{\"apiVersion\":\"v2\",\"revision\":null,\"kind\":\"RoomAutocompleteInterface@autocomplete\",\"data\":{\"tags\":[{\"key\":\"photographic\",\"doc_count\":3809},{\"key\":\"photography\",\"doc_count\":1884},{\"key\":\"wall\",\"doc_count\":1834},{\"key\":\"hall\",\"doc_count\":1630},{\"key\":\"table\",\"doc_count\":1480},{\"key\":\"photographer\",\"doc_count\":1012},{\"key\":\"chair\",\"doc_count\":925},{\"key\":\"architecture\",\"doc_count\":659},{\"key\":\"daylighting\",\"doc_count\":585},{\"key\":\"fotostudiya\",\"doc_count\":571}],\"studio\":[{\"key\":\"savemotions\",\"doc_count\":159},{\"key\":\"apriori\",\"doc_count\":102},{\"key\":\"quattrofashion\",\"doc_count\":96},{\"key\":\"leona\",\"doc_count\":95},{\"key\":\"stage\",\"doc_count\":95},{\"key\":\"mimika\",\"doc_count\":79},{\"key\":\"qweex.campus\",\"doc_count\":72},{\"key\":\"topbananastudio\",\"doc_count\":68},{\"key\":\"place\",\"doc_count\":66},{\"key\":\"dada\",\"doc_count\":64}]}}"
+                }
+              ]
             }
           ],
           "_postman_isSubFolder": true
@@ -6110,21 +6194,21 @@
   ],
   "variable": [
     {
-      "id": "b9641d6d-1cfb-4fe1-b186-05e9dea8953d",
+      "id": "d706f94c-4d6d-4280-8620-bacea7d2af26",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "681df1d1-32dc-4834-a9d7-198a7310f79f",
+      "id": "0a29a5f3-a585-4be2-a4a4-e46f81c779fb",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "500eef85-bf25-45d2-9198-a707a50c2f0a",
+      "id": "23e0c390-5add-4847-85c0-986bafea6af3",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
