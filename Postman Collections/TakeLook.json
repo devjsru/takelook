@@ -6093,21 +6093,21 @@
   ],
   "variable": [
     {
-      "id": "051cfa49-c51d-4876-9981-acc35b818d41",
+      "id": "401874a6-e35f-464e-bcd7-0f3965173c88",
       "key": "url",
       "value": "https://takelook.devjs.ru/api/v1",
       "type": "string",
       "description": ""
     },
     {
-      "id": "c37ae2bd-9a27-467d-822c-94552a07f548",
+      "id": "0e9d2de2-ae6d-4e93-a93a-f74963a1441c",
       "key": "clientId",
       "value": "2",
       "type": "string",
       "description": ""
     },
     {
-      "id": "c043fedd-f594-4cb9-8225-9a03ab724d05",
+      "id": "434fcf73-10ca-4d1f-8dd0-2ed7c53cbab4",
       "key": "clientSecret",
       "value": "ezCQpsNhs9Q4qPVXkTuaLIlrDMYNX72h4Vu9gteU",
       "type": "string",
